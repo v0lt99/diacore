@@ -1,3 +1,4 @@
+// the colour of diacore is orange
 html==>dia(diacore)
 </> ==> "@"
 <a href=google.com>google</a> ==> "button@google.com=google" 
