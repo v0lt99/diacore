@@ -1,0 +1,22 @@
+html==>dia(diacore)
+</> ==> "@"
+<a href=google.com>google</a> ==> "button@google.com=google" 
+<p>hi<p> ==> text=hi
+<!DOCTYPE html> ==> "@DIA start"
+<h1>Title</h1> ==> heading@1=Title
+<h2>Subtitle</h2> ==> heading@2=Subtitle
+<ul><li>Item 1</li><li>Item 2</li></ul> ==> list@ul@Item 1
+                                            list@ul@Item 2
+<img src="fish.jpg" alt="A fish"> ==> image@fish.jpg=A fish
+  
+<div>Section</div> ==> section=section
+<span>Inline</span> ==> inline=inline
+  
+<form>                                     form@start
+  <input type="text" name="username"> ==>  type=text name=username
+  <button>Submit</button>                  button@action(submit)=submit
+</form>                                    form@end
+
+<table>                                       table@start
+  <tr><td>Cell 1</td><td>Cell 2</td></tr> ==> row@Cell 1@Cell 2
+</table>                                      table@end
